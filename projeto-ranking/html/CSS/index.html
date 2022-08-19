@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ranking Talks</title>
+    </head>
+    <link rel="stylesheet" href="main.css">
+<body>
+    <nav class="navegação">
+            <a href="#">Ranking Atualizado</a>
+            <a href="#"></a>Ranking da Semana</a>
+            <a href="#">Ranking Mensal</a> 
+            <a href="#">Campanhas</a> 
+    </nav>
+        <div class= "flex-container">
+            <form name="equipe">
+        <label>Vendedor</label></form>
+        <input type="text" name="txtVendedor"/> <br/>
+        <label>Venda</label><br/>
+        <input type="text" name="txtVenda"><br/>
+        <label>Recorrência</label><br/>
+        <input type="text" name="txtRecorrencia"><br/>
+        <label>3 x no dia</label><br/>
+        <input type="text" name="txtDia"><br/>
+        <label>Semanal</label><br/>
+        <input type="text" name="txtSemanal"><br/>
+        <label>Total</label><br/>
+        <input type="text" name="txtTotal"><br/>
+        <input type="button" value="Adicionar" onclick="cadPessoa(txtVendedor.value, txtVenda.value, txtRecorrencia.value, txtDia.value, tstSemanal.value, txtTotal.value)"/>
+            </form>
+                </div>
+                    <br /> <br />
+        <h1>Ranking de Vendas </h1>
+<div id="Ranking">     
+    <table id="tabela-rank">
+        <thead>
+            <tr>
+            <td>Posição</td>
+            <td>Vendedor</td>
+            <td>Vendas</td>
+            <td>Recorrência</td>
+            <td>3 Dia </td>
+            <td>Semanal</td>
+            <td>Total</td>
+            </tr>
+                        </thead>        
+                    </table> 
+                </div>
+        <br><br><br>
+    </body> 
+</html>
